@@ -32,26 +32,28 @@ import { Component, OnInit } from '@angular/core';
           </form>
         </div>
 
-        <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+        <div class="mt-16 grid grid-cols-1 gap-8 lg:gap-32 text-6xl">
           <div class="mx-auto max-w-sm lg:max-w-none">
             <div class="mt-6 flex justify-center gap-4 lg:justify-start">
               @for ( link of socialLinks; track $index){
-              <a
+              <a 
                 [href]="link.href"
                 target="_blank"
                 rel="noreferrer"
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-gray-700 transition  hover:text-gray-700/75"
               >
                 <span class="sr-only">{{ link.label }}</span>
                 <i
-                  class="cursor-pointer items-center {{ link.icon }}"
+                  class="cursor-pointer items-center  {{ link.icon }}"
                   aria-hidden="true"
                 ></i>
               </a>
               }
             </div>
+
           </div>
         </div>
+
 
         <div class="mt-16 border-t border-gray-100 pt-8">
           <p class="text-center text-xs/relaxed text-gray-500">
@@ -68,45 +70,17 @@ export class FooterComponent implements OnInit {
   constructor() {}
   socialLinks = [
     {
-      href: '#',
+      href: 'https://t.me/it_girl_online_shopping',
       label: 'Telegram',
       icon: 'fa fa-telegram',
     },
     {
       href: '',
-      label: 'TikTok',
-      icon: 'fa fa-telegram',
+      label: 'Call',
+      icon: 'fa fa-phone-square',
     },
-    // Add other social links here
+
   ];
 
-  sections = [
-    {
-      title: 'Services',
-      items: [
-        { href: '#', label: 'Marketing' },
-        { href: '#', label: 'Graphic Design' },
-        { href: '#', label: 'App Development' },
-        { href: '#', label: 'Web Development' },
-      ],
-    },
-    {
-      title: 'About',
-      items: [
-        { href: '#', label: 'About' },
-        { href: '#', label: 'Careers' },
-        { href: '#', label: 'History' },
-        { href: '#', label: 'Our Team' },
-      ],
-    },
-    {
-      title: 'Support',
-      items: [
-        { href: '#', label: 'FAQs' },
-        { href: '#', label: 'Contact' },
-        { href: '#', label: 'Live Chat' },
-      ],
-    },
-  ];
   ngOnInit() {}
 }
