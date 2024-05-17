@@ -20,13 +20,17 @@ export const routes: Routes = [
         ]
     },
     {
-        path:'main',
+        path:'',
         component:MainLayoutComponent,
         children:[
             {
                 path:'welcome',
                 loadChildren:() => import('./modules/main/welcome-page/welcome-page.routes'),
             },
+            // {
+            //     path: '**',
+            //     redirectTo: 'welcome',
+            //   },
 
         ]
     }

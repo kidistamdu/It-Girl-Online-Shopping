@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Hermes Shoes",
+      "price": 3800,
+      "image": "/assets/logo.png",
+      "availability": "On Hand"
+    },
+    {
+      "id": 2,
+      "name": "Christian Dior",
+      "price": 3400,
+      "image": "/assets/logo.png",
+      "availability": "On Hand"
+    },
+    {
+      "id": 3,
+      "name": "Barbie Cap",
+      "price": 1200,
+      "image": "/assets/logo.png",
+      "availability": "On Hand"
+    },
+    {
+      "id": 4,
+      "name": "Skirt",
+      "price": 2500,
+      "image": "/assets/logo.png",
+      "availability": "On Hand"
+    },
+    {
+      "id": 5,
+      "name": "Chloe Bag",
+      "price": 5600,
+      "image": "/assets/logo.png",
+      "availability": "Available to order"
+    }
+  ]
+  
