@@ -9,7 +9,7 @@ import { MainLayoutComponent } from './layout/main-layout.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule,MainLayoutComponent,HttpClientModule],
+  imports: [RouterOutlet,CommonModule,MainLayoutComponent,HttpClientModule,AuthLayoutComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
