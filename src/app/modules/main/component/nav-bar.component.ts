@@ -13,7 +13,7 @@ export interface INavigationItem {
     <div class="flex flex-wrap ">
       <section class="relative mx-auto">
           <!-- navbar -->
-        <nav class="flex justify-between bg-gray-900 text-white w-screen">
+        <nav class="flex justify-between bg-gradient-to-r from-yellow-500 to-yellow-300  w-screen ">
           <div class="px-5 xl:px-12 py-6 flex w-full items-center">
             <a class="text-3xl font-bold font-heading" href="#">
               <img class="h-9" src="/assets/logo.png" alt="logo">
