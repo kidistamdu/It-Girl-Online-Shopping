@@ -6,7 +6,7 @@ import { FooterComponent } from '../component/footer.component';
 @Component({
   selector: 'welcome-page',
   standalone: true,
-  template: `<div><nav-bar>
+  template: `<div class="overflow-x-hidden"><nav-bar>
 
   </nav-bar><product-card>
 

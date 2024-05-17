@@ -1,38 +1,142 @@
 [
-    {
+  {
       "id": 1,
       "name": "Hermes Shoes",
       "price": 3800,
       "image": "/assets/logo.png",
-      "availability": "On Hand"
-    },
-    {
+      "availability": true
+  },
+  {
       "id": 2,
       "name": "Christian Dior",
       "price": 3400,
       "image": "/assets/logo.png",
-      "availability": "On Hand"
-    },
-    {
+      "availability": true
+  },
+  {
       "id": 3,
       "name": "Barbie Cap",
       "price": 1200,
       "image": "/assets/logo.png",
-      "availability": "On Hand"
-    },
-    {
+      "availability": true
+  },
+  {
       "id": 4,
       "name": "Skirt",
       "price": 2500,
       "image": "/assets/logo.png",
-      "availability": "On Hand"
-    },
-    {
+      "availability": false
+  },
+  {
       "id": 5,
       "name": "Chloe Bag",
       "price": 5600,
       "image": "/assets/logo.png",
-      "availability": "Available to order"
-    }
-  ]
-  
+      "availability": true
+  },
+  {
+      "id": 6,
+      "name": "Gucci Sunglasses",
+      "price": 2200,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 7,
+      "name": "Prada Hat",
+      "price": 1500,
+      "image": "/assets/logo.png",
+      "availability": false
+  },
+  {
+      "id": 8,
+      "name": "Louis Vuitton Belt",
+      "price": 2700,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 9,
+      "name": "Versace Shirt",
+      "price": 3000,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 10,
+      "name": "Armani Watch",
+      "price": 4500,
+      "image": "/assets/logo.png",
+      "availability": false
+  },
+  {
+      "id": 11,
+      "name": "Burberry Scarf",
+      "price": 2000,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 12,
+      "name": "Fendi Jacket",
+      "price": 6800,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 13,
+      "name": "Givenchy Wallet",
+      "price": 3200,
+      "image": "/assets/logo.png",
+      "availability": false
+  },
+  {
+      "id": 14,
+      "name": "Balenciaga Sneakers",
+      "price": 4800,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 15,
+      "name": "YSL Perfume",
+      "price": 1800,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 16,
+      "name": "Dolce & Gabbana Dress",
+      "price": 7000,
+      "image": "/assets/logo.png",
+      "availability": false
+  },
+  {
+      "id": 17,
+      "name": "Tom Ford Sunglasses",
+      "price": 2400,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 18,
+      "name": "Valentino Heels",
+      "price": 5200,
+      "image": "/assets/logo.png",
+      "availability": true
+  },
+  {
+      "id": 19,
+      "name": "Cartier Bracelet",
+      "price": 8600,
+      "image": "/assets/logo.png",
+      "availability": false
+  },
+  {
+      "id": 20,
+      "name": "Moncler Coat",
+      "price": 9500,
+      "image": "/assets/logo.png",
+      "availability": true
+  }
+]
