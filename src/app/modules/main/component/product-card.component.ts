@@ -1,4 +1,4 @@
-import { NgFor } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
@@ -9,21 +9,30 @@ export interface Product {
     name: string;
     price: number;
     image: string;
-    availability:string
+    availability:boolean
     // Add more properties as needed
   }
 @Component({
     selector: 'product-card',
     standalone: true,
     template: `
-    <div class="flex flex-row col-2  w-full mt-10">
+    <div class="grid w-full mt-10 gap-4 items-center 
+            grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
 
 
   @for(product of products ; track $index){
     <div class="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
   <a class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" href="#">
-    <img class="object-cover" [src]="product.image" alt="product image" />
-    <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">{{product.availability}}</span>
+    <img class="object-cover items-center" [src]="product.image" alt="product image" />
+    <span *ngIf="product.availability"
+  class="absolute top-0 left-0 m-2 rounded-full bg-green-500 px-2 text-center text-sm font-medium text-white">
+  On Hand
+</span>
+<span *ngIf="!product.availability"
+  class="absolute top-0 left-0 m-2 rounded-full bg-red-500 px-2 text-center text-sm font-medium text-white">
+  Available to Order
+</span>
+
   </a>
   <div class="mt-4 px-5 pb-5">
     <a href="#">
@@ -55,7 +64,7 @@ export interface Product {
 
   
   `,
-    imports: [NgFor],
+    imports: [NgFor,NgIf],
     providers:[HttpClient]
 })
 

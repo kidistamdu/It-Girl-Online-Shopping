@@ -9,9 +9,7 @@ export interface INavigationItem {
 @Component({
     selector: 'nav-bar',
     standalone:true,
-    template: `<!-- component -->
-    <!-- follow me on twitter @asad_codes -->
-    
+    template: `
     <div class="flex flex-wrap ">
       <section class="relative mx-auto">
           <!-- navbar -->
