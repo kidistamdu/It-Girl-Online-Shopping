@@ -23,7 +23,7 @@ export interface Product {
   @for(product of products ; track $index){
     <div class="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
   <a class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" href="#">
-    <img class="object-cover items-center" [src]="product.image" alt="product image" />
+    <img class="object-cover items-center w-full" [src]="product?.image" alt="product image" />
     <span *ngIf="product.availability"
   class="absolute top-0 left-0 m-2 rounded-full bg-green-500 px-2 text-center text-sm font-medium text-white">
   On Hand
@@ -36,12 +36,12 @@ export interface Product {
   </a>
   <div class="mt-4 px-5 pb-5">
     <a href="#">
-      <h5 class="text-xl tracking-tight text-slate-900">{{ product.name }}</h5>
+      <h5 class="text-xl tracking-tight text-slate-900">{{ product?.name }}</h5>
     </a>
     <div class="mt-2 mb-5 flex items-center justify-between">
       <p>
-        <span class="text-3xl font-bold text-slate-900">{{ product.price }}</span>
-        <span class="text-sm text-slate-900 line-through">{{ product.price }}</span>
+        <span class="text-3xl font-bold text-slate-900">{{ product?.price }}</span>
+        <!-- <span class="text-sm text-slate-900 line-through">{{ product?.oldPrice }}</span> -->
       </p>
       <div class="flex items-center">
         <svg  *ngFor="let star of [1, 2, 3, 4, 5]; let i = index" aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
