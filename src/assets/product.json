@@ -29,10 +29,10 @@
   },
   {
       "id": 5,
-      "name": "Chloe Bag",
-      "price": 5600,
-      "image": "/assets/logo.png",
-      "availability": true
+      "name": "Flat Shoes",
+      "price": 2700,
+      "image": "/assets/flatWhiteShoes.jpeg",
+      "availability": false
   },
   {
       "id": 6,
@@ -43,42 +43,42 @@
   },
   {
       "id": 7,
-      "name": "Prada Hat",
-      "price": 1500,
-      "image": "/assets/logo.png",
-      "availability": false
+      "name": "Barbie Cap",
+      "price": 1200,
+      "image": "/assets/barbieCap.jpeg",
+      "availability": true
   },
   {
       "id": 8,
-      "name": "Louis Vuitton Belt",
-      "price": 2700,
-      "image": "/assets/logo.png",
+      "name": "AirPod",
+      "price": 800,
+      "image": "/assets/airpod1.jpeg",
       "availability": true
   },
   {
-      "id": 9,
-      "name": "Versace Shirt",
-      "price": 3000,
-      "image": "/assets/logo.png",
-      "availability": true
-  },
-  {
-      "id": 10,
-      "name": "Armani Watch",
-      "price": 4500,
-      "image": "/assets/logo.png",
-      "availability": false
-  },
+    "id": 9,
+    "name": "AirPod",
+    "price": 800,
+    "image": "/assets/airpod2.jpeg",
+    "availability": true
+},
+{
+    "id": 10,
+    "name": "AirPod",
+    "price": 800,
+    "image": "/assets/airpod3.jpeg",
+    "availability": true
+},
   {
       "id": 11,
-      "name": "Burberry Scarf",
-      "price": 2000,
-      "image": "/assets/logo.png",
+      "name": "Flat Shoes",
+      "price": 2900,
+      "image": "/assets/sheinFlat.jpeg",
       "availability": true
   },
   {
       "id": 12,
-      "name": "Fendi Jacket",
+      "name": "Lime ",
       "price": 6800,
       "image": "/assets/logo.png",
       "availability": true

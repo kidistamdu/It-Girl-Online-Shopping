@@ -74,11 +74,11 @@ export class FooterComponent implements OnInit {
       label: 'Telegram',
       icon: 'fa fa-telegram',
     },
-    {
-      href: '',
-      label: 'Call',
-      icon: 'fa fa-phone-square',
-    },
+    // {
+    //   href: '',
+    //   label: 'Call',
+    //   icon: 'fa fa-phone-square',
+    // },
 
   ];
 
