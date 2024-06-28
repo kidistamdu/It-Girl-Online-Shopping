@@ -78,42 +78,42 @@
   },
   {
       "id": 12,
-      "name": "Lime ",
-      "price": 6800,
-      "image": "/assets/logo.png",
+      "name": "Jumpsuit ",
+      "price": 3800,
+      "image": "/assets/jumpsuit.jpeg",
       "availability": true
   },
   {
       "id": 13,
-      "name": "Givenchy Wallet",
-      "price": 3200,
-      "image": "/assets/logo.png",
+      "name": "LV Shoes",
+      "price": 5300,
+      "image": "/assets/LVshoes.jpeg",
       "availability": false
   },
   {
       "id": 14,
-      "name": "Balenciaga Sneakers",
-      "price": 4800,
-      "image": "/assets/logo.png",
+      "name": "Chloe Shoes",
+      "price": 3800,
+      "image": "/assets/chloeShoes.jpeg",
       "availability": true
   },
   {
       "id": 15,
-      "name": "YSL Perfume",
-      "price": 1800,
-      "image": "/assets/logo.png",
+      "name": "Barbie Wallet",
+      "price": 600,
+      "image": "/assets/barbieWallet.jpeg",
       "availability": true
   },
   {
       "id": 16,
-      "name": "Dolce & Gabbana Dress",
-      "price": 7000,
-      "image": "/assets/logo.png",
+      "name": "Barbie KeyChain",
+      "price": 700,
+      "image": "/assets/barbieKeyChain.jpeg",
       "availability": false
   },
   {
       "id": 17,
-      "name": "Tom Ford Sunglasses",
+      "name": "Hermes Hang Bag",
       "price": 2400,
       "image": "/assets/logo.png",
       "availability": true
