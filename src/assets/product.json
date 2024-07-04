@@ -81,7 +81,7 @@
       "name": "Jumpsuit ",
       "price": 3800,
       "image": "/assets/jumpsuit.jpeg",
-      "availability": true
+      "availability": false
   },
   {
       "id": 13,
