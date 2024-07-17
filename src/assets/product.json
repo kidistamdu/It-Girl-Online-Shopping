@@ -11,7 +11,7 @@
       "name": "Hermes shoes",
       "price": 3700,
       "image": "/assets/pinkHermes.jpeg",
-      "availability": true
+      "availability": false
   },
   {
       "id": 3,
@@ -125,4 +125,6 @@
       "image": "/assets/blueJeansSkirt.jpeg",
       "availability": true
   }
+  
+
 ]
