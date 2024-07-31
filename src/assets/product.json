@@ -116,7 +116,7 @@
       "name": "Hermes Hang Bag",
       "price": 2400,
       "image": "/assets/hermesHandBag.jpeg",
-      "availability": true
+      "availability": false
   },
   {
       "id": 18,
